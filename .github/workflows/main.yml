@@ -1,0 +1,12 @@
+name: My First Action
+
+on:
+  workflow_dispatch:  # manual trigger button
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f2002399@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions!"
