@@ -1,0 +1,37 @@
+<!-- Quantification: 7.30. Distortion: inflates tiny deltas by 7.3x. Original truncated min was approximately 785.3. Corrected chart reveals true scale. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What does this chart claim to show? Quarterly uplift is dramatic</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 16px;
+        }
+
+        canvas {
+            max-height: 340px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>What does this chart claim to show? Quarterly uplift is dramatic</h3>
+    <canvas id="chart"></canvas>
+    <script>
+        new Chart(document.getElementById('chart'), {
+            type: "line",
+            data: {
+                "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+                datasets: [{ "label": "Revenue Index", "data": [862.97, 874.47, 880.11, 885.12, 891.04, 895.91, 905.15, 910.24], "borderColor": "#2563eb", "backgroundColor": "rgba(37, 99, 235, 0.15)", "tension": 0.3 }]
+            },
+            options: { "responsive": true, scales: { "y": { min: 0, beginAtZero: true } } }
+        });
+    </script>
+</body>
+
+</html>

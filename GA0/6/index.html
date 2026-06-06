@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Regional Unemployment Rate</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #ffffff;
+            --text: #212529;
+            --subtext: #6c757d;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #212529;
+                --text: #f8f9fa;
+                --subtext: #adb5bd;
+            }
+        }
+
+        body {
+            font-family: sans-serif;
+            margin: 16px;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        p {
+            font-size: 0.8rem;
+            color: var(--subtext);
+            margin-bottom: 12px;
+        }
+
+        canvas {
+            max-height: 280px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Regional Unemployment Rate</h2>
+    <p>Unemployment rate (%) by region, ranging from 2% to 18%</p>
+
+    <!-- 
+  Explanation:
+  The original chart incorrectly used a categorical color scheme, which implies each region is an unrelated category.
+  This is misleading because unemployment rate is ordered numeric data (2% to 18%).
+
+  The correct scheme is sequential, where color intensity increases with value.
+  This helps viewers clearly see low → high progression.
+
+  Fix:
+  Replaced random colors with a light-to-dark blue sequential palette.
+  Light = low unemployment, Dark = high unemployment.
+  -->
+
+    <canvas id="chart"></canvas>
+
+    <script>
+        // FIXED: sequential palette (light → dark blue)
+        const colors = [
+            "#f7fbff", "#deebf7", "#c6dbef", "#9ecae1",
+            "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b"
+        ];
+
+        new Chart(document.getElementById('chart'), {
+            type: 'bar',
+            data: {
+                labels: ["Region A", "Region B", "Region C", "Region D", "Region E", "Region F", "Region G", "Region H", "Region I"],
+                datasets: [{
+                    label: 'Regional Unemployment Rate',
+                    data: [2, 4, 6, 8, 10, 12, 14, 16, 18],
+                    backgroundColor: colors,
+                    borderColor: colors,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: { legend: { display: false } },
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+    </script>
+</body>
+
+</html>
