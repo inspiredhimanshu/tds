@@ -10,6 +10,9 @@ GA0/**/*.csv
 __pycache__/
 *.pyc
 .venv
+.env
+.github
+.git
 
 # Ignore output files (if they're generated)
 GA0/**/output*.json

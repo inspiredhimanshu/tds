@@ -1,0 +1,157 @@
+[
+    {
+        "category":"Apparel",
+        "price":196.07,
+        "name":"Deluxe Kit"
+    },
+    {
+        "category":"Apparel",
+        "price":180.63,
+        "name":"Super Item"
+    },
+    {
+        "category":"Apparel",
+        "price":165.9,
+        "name":"Pro Item"
+    },
+    {
+        "category":"Apparel",
+        "price":162.21,
+        "name":"Smart Device"
+    },
+    {
+        "category":"Apparel",
+        "price":158.89,
+        "name":"Smart Tool"
+    },
+    {
+        "category":"Apparel",
+        "price":148.31,
+        "name":"Eco Item"
+    },
+    {
+        "category":"Books",
+        "price":188.3,
+        "name":"Deluxe Gadget"
+    },
+    {
+        "category":"Books",
+        "price":148.56,
+        "name":"Pro Kit"
+    },
+    {
+        "category":"Electronics",
+        "price":198.44,
+        "name":"Smart Tool"
+    },
+    {
+        "category":"Electronics",
+        "price":193.24,
+        "name":"Smart Gadget"
+    },
+    {
+        "category":"Electronics",
+        "price":181.26,
+        "name":"Mini Item"
+    },
+    {
+        "category":"Electronics",
+        "price":170.64,
+        "name":"Pro Gadget"
+    },
+    {
+        "category":"Electronics",
+        "price":152.79,
+        "name":"Pro Kit"
+    },
+    {
+        "category":"Electronics",
+        "price":152.57,
+        "name":"Smart Kit"
+    },
+    {
+        "category":"Home",
+        "price":193.71,
+        "name":"Pro Item"
+    },
+    {
+        "category":"Home",
+        "price":179.84,
+        "name":"Super Set"
+    },
+    {
+        "category":"Home",
+        "price":179.63,
+        "name":"Deluxe Device"
+    },
+    {
+        "category":"Home",
+        "price":174.16,
+        "name":"Super Device"
+    },
+    {
+        "category":"Home",
+        "price":173.02,
+        "name":"Mini Set"
+    },
+    {
+        "category":"Home",
+        "price":152.08,
+        "name":"Eco Device"
+    },
+    {
+        "category":"Home",
+        "price":150.4,
+        "name":"Smart Item"
+    },
+    {
+        "category":"Toys",
+        "price":197.69,
+        "name":"Mini Tool"
+    },
+    {
+        "category":"Toys",
+        "price":196.75,
+        "name":"Pro Set"
+    },
+    {
+        "category":"Toys",
+        "price":189.45,
+        "name":"Super Device"
+    },
+    {
+        "category":"Toys",
+        "price":185.65,
+        "name":"Pro Widget"
+    },
+    {
+        "category":"Toys",
+        "price":184.16,
+        "name":"Mini Set"
+    },
+    {
+        "category":"Toys",
+        "price":180.91,
+        "name":"Super Kit"
+    },
+    {
+        "category":"Toys",
+        "price":180.01,
+        "name":"Mini Set"
+    },
+    {
+        "category":"Toys",
+        "price":178.92,
+        "name":"Pro Device"
+    },
+    {
+        "category":"Toys",
+        "price":174.79,
+        "name":"Mini Set"
+    },
+    {
+        "category":"Toys",
+        "price":147.0,
+        "name":"Ultra Tool"
+    }
+]
