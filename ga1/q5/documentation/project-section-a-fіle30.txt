@@ -1,0 +1,10 @@
+category: documentation
+
+TECHNICAL DOCUMENTATION - File 30
+
+This is a test file for the reorganization exercise.
+Path: project/section-a/fіle30.txt
+Category: documentation
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

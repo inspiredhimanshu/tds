@@ -1,0 +1,10 @@
+category: scripts
+
+TECHNICAL DOCUMENTATION - File 17
+
+This is a test file for the reorganization exercise.
+Path: archive/módulo-3/file17.txt
+Category: scripts
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

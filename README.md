@@ -1,5 +1,0 @@
-# tds
-
-```python
-python -m
-```

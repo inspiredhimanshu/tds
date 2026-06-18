@@ -1,0 +1,10 @@
+category: café
+
+TECHNICAL DOCUMENTATION - File 2
+
+This is a test file for the reorganization exercise.
+Path: project/módulo-3/file02.txt
+Category: café
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

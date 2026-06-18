@@ -1,0 +1,10 @@
+category: data
+
+TECHNICAL DOCUMENTATION - File 24
+
+This is a test file for the reorganization exercise.
+Path: docs/chapter1/fіle24.txt
+Category: data
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

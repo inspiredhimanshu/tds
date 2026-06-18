@@ -1,0 +1,10 @@
+category: münchen
+
+TECHNICAL DOCUMENTATION - File 20
+
+This is a test file for the reorganization exercise.
+Path: content/módulo-3/références/file20.txt
+Category: münchen
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -1,10 +1,7 @@
 # Ignore Zone.Identifier files (Windows metadata)
 **/:Zone.Identifier
 
-# Ignore large data files in GA0
-GA0/**/data*.csv
-GA0/**/data*.json
-GA0/**/*.csv
+
 
 # Ignore Python cache and virtual environments
 __pycache__/
@@ -14,6 +11,3 @@ __pycache__/
 .github
 .git
 
-# Ignore output files (if they're generated)
-GA0/**/output*.json
-GA0/**/output*.csv
